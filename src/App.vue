@@ -1,16 +1,17 @@
 <template>
   <HelloWorld msg="Hallo Anna" />
-  <PDFGenerator />
+  <PdfCreator />
 </template>
 
 <script>
-import PDFGenerator from './components/PDFGenerator.vue';
+
+import PdfCreator from './components/PdfCreator.vue';
 import HelloWorld from './components/HelloWorld.vue';
 
 export default {
   components: {
     HelloWorld,
-    PDFGenerator,
+    PdfCreator
   },
 };
 </script>

@@ -2,8 +2,9 @@
   <!-- <HelloWorld msg="Hallo Anna" />
   <PdfCreator /> 
   <PdfCreatorCanvg />
-  <ChartAndTablePDF />-->
-  <PDFMultipleGraphCreator />
+  <ChartAndTablePDF />
+  <PDFMultipleGraphCreator />-->
+  <PDFGeneratorComponent />
 </template>
 
 <script>
@@ -13,6 +14,7 @@ import HelloWorld from './components/HelloWorld.vue';
 import PdfCreatorCanvg from './components/PdfCreatorCanvg.vue';
 import PDFMultipleGraphCreator from './components/PDFMultipleGraphCreator.vue';
 import ChartAndTablePDF from './components/ChartAndTablePDF.vue';
+import PDFGeneratorComponent from './components/PDFGeneratorComponent.vue';
 
 export default {
   components: {
@@ -20,7 +22,8 @@ export default {
     PDFMultipleGraphCreator,
     PdfCreator,
     PdfCreatorCanvg,
-    ChartAndTablePDF
+    ChartAndTablePDF,
+    PDFGeneratorComponent
   },
 };
 </script>

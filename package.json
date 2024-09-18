@@ -12,6 +12,7 @@
     "@mdi/font": "^7.4.47",
     "canvg": "^4.0.2",
     "highcharts": "^11.4.8",
+    "highcharts-accessibility": "^0.1.7",
     "highcharts-exporting": "^0.1.7",
     "highcharts-vue": "^2.0.1",
     "html2canvas": "^1.4.1",
